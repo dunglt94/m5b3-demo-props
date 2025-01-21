@@ -7,10 +7,18 @@
 //   );
 // }
 
-import AddComponent from './components/AddComponent';
+// import ClassComponent from './components/ClassComponent';
+// function App() {
+//     return (
+//         <ClassComponent firstNumber={1} secondNumber={2} />
+//     );
+// }
+
+import FunctionComponent from './components/FunctionComponent';
 function App() {
     return (
-        <AddComponent firstNumber={1} secondNumber={2} />
+        <FunctionComponent firstNumber={1} secondNumber={2} />
     );
 }
+
 export default App;
